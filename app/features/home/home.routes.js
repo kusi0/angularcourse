@@ -1,4 +1,3 @@
-
 export default function routes($stateProvider) {
   $stateProvider
     .state('home', {
