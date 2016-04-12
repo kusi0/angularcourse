@@ -1,0 +1,11 @@
+<div class="col-sm-4" ng-repeat="repo in github.Repos">
+        <div class="list-group">
+            <li class="list-group-item text-center"><strong>{{repo.name}}</strong></li>
+            <li class="list-group-item text-center">{{repo.description}}</li>
+            <li class="list-group-item text-center">
+                <a ng-href="{{repo.html_url}}" target="_blank" >
+                    Go to rep
+                </a>
+            </li>
+        </div>
+</div>
